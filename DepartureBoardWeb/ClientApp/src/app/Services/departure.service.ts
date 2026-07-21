@@ -200,7 +200,7 @@ export class DepartureService {
       source.expectedDeparture
     );
 
-    const extraDetails: Dictionary<any> = {
+    const extraDetails: any = {
       route: source.route || "",
       minutes:
         source.minutes === null
