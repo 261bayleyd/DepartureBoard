@@ -201,19 +201,19 @@ export class DepartureService {
     );
 
     const extraDetails: any = {
-      route: source.route || "",
-      minutes:
-        source.minutes === null
-          ? ""
-          : source.minutes,
-      displayTime: source.displayTime || "",
-      vehicleRef: source.vehicleRef || "",
-      tripRef: source.tripRef || "",
-      directionRef: source.directionRef || "",
-      agency: stop.agency || "SF",
-      stopCode: stop.stopCode,
-      stopName: stop.name,
-    };
+  route: source.route || "",
+  minutes:
+    source.minutes === null
+      ? ""
+      : source.minutes,
+  displayTime: source.displayTime || "",
+  vehicleRef: source.vehicleRef || "",
+  tripRef: source.tripRef || "",
+  directionRef: source.directionRef || "",
+  agency: stop.agency || "SF",
+  stopCode: stop.stopCode,
+  stopName: stop.name,
+};
 
     return {
       lastUpdated:
