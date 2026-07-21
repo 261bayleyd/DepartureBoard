@@ -11,8 +11,8 @@ export interface Departure {
   status: any;
   length: number;
   stops: StationStop[];
-  extraDetails: Dictionary<object>;
-  isCancelled?: boolean | undefined;
+  extraDetails: Dictionary<any>;
+  isCancelled?: boolean;
 }
 
 export interface StationStop {
